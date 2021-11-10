@@ -1,0 +1,179 @@
+body,
+html {
+  background-color: white;
+  height: 100%;
+}
+
+nav .brand-logo {
+  font-size: 60px;
+}
+
+nav .brand-logo2 {
+  font-size: 20px;
+}
+
+/* a:hover {
+  background-color: red;
+} */
+
+img {
+  opacity: 1;
+  filter: alpha(opacity=40);
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=100);
+  border: 5px solid red;
+}
+
+/* FIRST BOX */
+
+/* SECOND BOX */
+section {
+  background-image: url("./assets/images/seattle.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+/* END OF SECOND BOX */
+
+/* THIRD BOX  */
+main {
+  display: flex;
+  background-color: white;
+  /* padding-right: 10px; */
+  width: 100%;
+}
+
+.about {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 121px;
+  border-right: 5px solid black;
+  padding-right: 15px;
+}
+
+.text {
+  align-items: center;
+  background-color: white;
+  font-size: 15px;
+  border-style: none;
+  border-width: 5px;
+  padding: 1%;
+  margin: 1%;
+}
+/* END OF THIRD BOX  */
+
+/* FOURTH BOX  */
+
+.work2 {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 138px;
+  border-right: 5px solid black;
+  padding-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 5px;
+  align-items: center;
+  font-size: 20px;
+  border-style: none;
+  border-width: 5px;
+  padding: 2%;
+  margin: 5%;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / 8;
+}
+
+.item6 {
+  grid-column: 1 / 8;
+}
+
+.item2 {
+  grid-column: 1 / 4;
+}
+
+.item3 {
+  grid-column: 5 / 8;
+}
+.item4 {
+  grid-column: 1 / 4;
+}
+.item5 {
+  grid-column: 5 / 8;
+}
+
+.big_image {
+  width: 95%;
+  height: 120%;
+  border: 5px solid rgba(18, 92, 161, 0.856);
+}
+
+.small_image {
+  width: 90%;
+  height: 100%;
+  border: 5px solid rgba(18, 92, 161, 0.856);
+}
+/* END OF FOURTH BOX  */
+
+/* LAST BOX */
+/* footer {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.contact {
+  background-color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 35px;
+  border-right: 5px solid black;
+  padding-right: 43px;
+}
+
+.me {
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 20px;
+  padding: auto;
+} */
+/* LAST BOX */
+
+.bottom-left {
+  /* position: absolute; */
+  bottom: 8px;
+  left: 16px;
+  font-size: 15px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+}
